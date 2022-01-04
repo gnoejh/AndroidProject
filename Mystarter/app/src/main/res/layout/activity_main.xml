@@ -51,7 +51,10 @@
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
-<!-- TODO add "1) build.gradle: id kotlin.android.extensions  2) MainActivity: import kotlinx.android.synthetic.main.activity_main.*" -->
+<!-- TODO add
+"1) build.gradle: id kotlin.android.extensions
+2) MainActivity: import kotlinx.android.synthetic.main.activity_main.*"
+-->
 
 
 
