@@ -8,6 +8,7 @@ import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
 import java.lang.Thread.sleep
+import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -15,18 +16,15 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
 
-    //part of activity, diable the above button.setOnClickListner
     fun onClickButton(v:View){
 
-        var edit_text:EditText = findViewById(R.id.editText)
-        var text_view:TextView = findViewById(R.id.textView)
-        if (edit_text.text.isNotEmpty()){
-            val dollarValue = edit_text.text.toString().toFloat()
+        if (editText.text.isNotEmpty()){
+            val dollarValue = editText.text.toString().toFloat()
             val euroValue = dollarValue * 0.85f
-            text_view.text = euroValue.toString()
+            textView.text = euroValue.toString()
         }
         else {
-            text_view.text = "No value"
+            textView.text = "No value"
         }
 
 
