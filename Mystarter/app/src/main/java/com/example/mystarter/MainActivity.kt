@@ -16,17 +16,15 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
 
-    fun onClickButton(v:View){
+    fun onClickButton(v: View) {
 
-        if (editText.text.isNotEmpty()){
+        if (editText.text.isNotEmpty()) {
             val dollarValue = editText.text.toString().toFloat()
             val euroValue = dollarValue * 0.85f
             textView.text = euroValue.toString()
-        }
-        else {
+        } else {
             textView.text = "No value"
         }
-
 
 
     }
