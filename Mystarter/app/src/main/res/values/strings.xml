@@ -2,4 +2,7 @@
     <string name="app_name">Mystarter</string>
     <string name="greeting" translatable="false">How are you</string>
     <string name="label_button" translatable="false">PUSH ME</string>
+    <string name="dollar">Dollar</string>
+    <string name="euro">Euro</string>
+    <string name="convert">Convert</string>
 </resources>
