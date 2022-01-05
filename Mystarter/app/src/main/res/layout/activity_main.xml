@@ -30,4 +30,7 @@
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
-<!-- TODO lifecycle old method -->
+<!-- TODO lifecycle old method
+    1. Use Logcat mechanism
+    2. check saving and restoring the data that is default
+-->
