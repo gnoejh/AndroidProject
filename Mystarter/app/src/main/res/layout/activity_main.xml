@@ -30,5 +30,6 @@
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
-<!-- TODO bind button by findViewById
-          push button for greeting -->
+<!-- TODO using findViewById
+    1. button, textView
+    2. push button and show greeting on textView -->
