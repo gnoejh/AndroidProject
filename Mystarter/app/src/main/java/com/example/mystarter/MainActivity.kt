@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.TextView
+import kotlinx.android.synthetic.main.activity_main.*  //for synthetic properties
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -12,7 +13,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun sayHello(v: View){
-        var textview: TextView = findViewById(R.id.textView)
-        textview.text = "Hello, world!"
+//        var textview: TextView = findViewById(R.id.textView)
+        textView.text = "Hello, world!"  //use view object directly
     }
 }

@@ -30,6 +30,6 @@
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
-<!-- TODO using findViewById
-    1. button, textView
-    2. push button and show greeting on textView -->
+<!-- TODO using Sythetic Properties
+    1. plugins {id 'kotlin-android-extensions'}
+    2. import kotlin.android.synthetic.main.activity_main.* -->
