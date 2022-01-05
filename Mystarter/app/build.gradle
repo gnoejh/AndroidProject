@@ -33,6 +33,7 @@ android {
         includeInApk true
         includeInBundle true
     }
+
     <!-- 1 -->
     buildFeatures {
         viewBinding true
