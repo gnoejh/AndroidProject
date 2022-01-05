@@ -34,7 +34,6 @@ android {
         includeInBundle true
     }
 
-    <!-- 1 -->
     buildFeatures {
         viewBinding true
     }
