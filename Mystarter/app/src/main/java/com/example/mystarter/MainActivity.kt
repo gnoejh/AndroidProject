@@ -10,7 +10,7 @@ class MainActivity : AppCompatActivity() {
 
         main()
     }
-
+    //TODO main()
     fun main(){
         //print vs println
         print("Hello, "); print("world!")
