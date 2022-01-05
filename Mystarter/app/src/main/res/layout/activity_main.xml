@@ -30,6 +30,4 @@
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
-<!-- TODO using Sythetic Properties
-    1. plugins {id 'kotlin-android-extensions'}
-    2. import kotlin.android.synthetic.main.activity_main.* -->
+<!-- TODO using viewBinding 6 steps -->
