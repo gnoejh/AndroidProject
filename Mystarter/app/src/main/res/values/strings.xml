@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Mystarter</string>
+    <string name="button">PUSH ME</string>
+    <string name="text_view">Greetings</string>
 </resources>
