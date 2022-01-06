@@ -1,4 +1,4 @@
-package com.example.mystarter
+package com.example.mainviewmodel
 
 import org.junit.Test
 
