@@ -34,11 +34,11 @@ android {
         includeInBundle true
     }
 
-
-    <!-- 1 -->
     buildFeatures {
         viewBinding true
     }
+    compileSdkVersion 32
+    buildToolsVersion '32.0.0'
 }
 
 dependencies {

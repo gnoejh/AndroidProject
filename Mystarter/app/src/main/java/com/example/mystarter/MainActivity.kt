@@ -8,22 +8,17 @@ import com.example.mystarter.databinding.ActivityMainBinding    //2 notice the n
 
 class MainActivity : AppCompatActivity() {
 
-    private lateinit var binding: ActivityMainBinding           //3
+    private lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
-        binding = ActivityMainBinding.inflate(layoutInflater)   //4
-
-//        setContentView(R.layout.activity_main)
-        setContentView(binding.root)                            //5
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
 
     }
 
     fun sayHello(v: View){
-//        var textview: TextView = findViewById(R.id.textView)
-//        textView.text = "Hello, world!"  //use view object directly
-        binding.textView.text = "Hello, world!"                 //6
+        binding.textView.text = "Hello, world!"
     }
 }
