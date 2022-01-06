@@ -4,26 +4,49 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.TextView
-import com.example.mystarter.databinding.ActivityMainBinding    //2 notice the name
+import com.example.mystarter.databinding.ActivityMainBinding
+//TODO 1
+import android.view.MotionEvent
+import androidx.constraintlayout.widget.ConstraintLayout
 
 class MainActivity : AppCompatActivity() {
 
-    private lateinit var binding: ActivityMainBinding           //3
+    private lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
-        binding = ActivityMainBinding.inflate(layoutInflater)   //4
-
-//        setContentView(R.layout.activity_main)
-        setContentView(binding.root)                            //5
-
-
+        //TODO 2
+        binding.activityMain.setOnTouchListener { v: View, m: MotionEvent ->
+            handleTouch(m)
+            true
+        }
     }
 
-    fun sayHello(v: View){
-//        var textview: TextView = findViewById(R.id.textView)
-//        textView.text = "Hello, world!"  //use view object directly
-        binding.textView.text = "Hello, world!"                 //6
+    private fun handleTouch(m: MotionEvent) {
+        val pointerCount = m.pointerCount
+        for (i in 0 until pointerCount) {
+            val x = m.getX(i)
+            val y = m.getY(i)
+            val id = m.getPointerId(i)
+            val action = m.actionMasked
+            val actionIndex = m.actionIndex
+            var actionString: String
+            when (action) {
+                MotionEvent.ACTION_DOWN -> actionString = "DOWN"
+                MotionEvent.ACTION_UP -> actionString = "UP"
+                MotionEvent.ACTION_POINTER_DOWN -> actionString = "PNTR DOWN"
+                MotionEvent.ACTION_POINTER_UP -> actionString = "PNTR UP"
+                MotionEvent.ACTION_MOVE -> actionString = "MOVE"
+                else -> actionString = ""
+            }
+            val touchStatus = "Action: $actionString Index: $actionIndex ID: $id X: $x Y: $y"
+            if (id == 0)
+                binding.textView1.text = touchStatus
+            else
+                binding.textView2.text = touchStatus
+        }
     }
 }

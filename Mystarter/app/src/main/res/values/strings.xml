@@ -2,4 +2,6 @@
     <string name="app_name">Mystarter</string>
     <string name="button">PUSH ME</string>
     <string name="text_view">Greetings</string>
+    <string name="touch1">Touch One Status</string>
+    <string name="touch2">Touch Two Status</string>
 </resources>
