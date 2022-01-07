@@ -9,6 +9,8 @@ import android.view.ViewGroup
 import com.example.mainviewmodel.R
 //TODO 2
 import com.example.mainviewmodel.databinding.MainFragmentBinding
+//TODO 14
+import androidx.lifecycle.Observer
 
 class MainFragment : Fragment() {
     //TODO 3
@@ -36,15 +38,23 @@ class MainFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         viewModel = ViewModelProvider(this).get(MainViewModel::class.java)
         // TODO 6
-        binding.textView.text = viewModel.getResult().toString()
+        //TODO 16
+//        binding.textView.text = viewModel.getResult().toString()
+        //TODO 6
         binding.button.setOnClickListener {
             if (binding.editText.text.isNotEmpty()){
                 viewModel.setAmount(binding.editText.text.toString())
-                binding.textView.text = viewModel.getResult().toString()
+                //TODO 18
+//                binding.textView.text = viewModel.getResult().toString()
             } else {
                 binding.textView.text = "No value"
             }
         }
+
+        //TODO 15
+        val resultObserver = Observer<Float> { result -> binding.textView.text = result.toString()}
+        //TODO 17
+        viewModel.getResult().observe(viewLifecycleOwner, resultObserver)
     }
     //TODO 5
     override fun onDestroyView() {
