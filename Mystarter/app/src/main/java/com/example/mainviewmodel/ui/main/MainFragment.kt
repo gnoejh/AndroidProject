@@ -7,8 +7,13 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.example.mainviewmodel.R
+//TODO 2
+import com.example.mainviewmodel.databinding.MainFragmentBinding
 
 class MainFragment : Fragment() {
+    //TODO 3
+    private var _binding: MainFragmentBinding? = null
+    private val binding get() = _binding!!
 
     companion object {
         fun newInstance() = MainFragment()
@@ -16,17 +21,35 @@ class MainFragment : Fragment() {
 
     private lateinit var viewModel: MainViewModel
 
+    //TODO 4
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        return inflater.inflate(R.layout.main_fragment, container, false)
+//        return inflater.inflate(R.layout.main_fragment, container, false)
+        _binding = MainFragmentBinding.inflate(inflater, container, false)
+        return binding.root
     }
 
-    override fun onActivityCreated(savedInstanceState: Bundle?) {
-        super.onActivityCreated(savedInstanceState)
+    //corrected for new method
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
         viewModel = ViewModelProvider(this).get(MainViewModel::class.java)
-        // TODO: Use the ViewModel
+        // TODO 6
+        binding.textView.text = viewModel.getResult().toString()
+        binding.button.setOnClickListener {
+            if (binding.editText.text.isNotEmpty()){
+                viewModel.setAmount(binding.editText.text.toString())
+                binding.textView.text = viewModel.getResult().toString()
+            } else {
+                binding.textView.text = "No value"
+            }
+        }
+    }
+    //TODO 5
+    override fun onDestroyView() {
+        super.onDestroyView()
+        _binding = null
     }
 
 }

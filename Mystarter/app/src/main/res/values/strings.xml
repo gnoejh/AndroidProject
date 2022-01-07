@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">MainViewmodel</string>
+    <string name="button">Convert</string>
+    <string name="mainfragment">MainFragment</string>
+    <string name="euro">Euro</string>
+    <string name="dollar">Dollar</string>
+    <string name="dollarText">Dollar</string>
+    <string name="euroText">Euro</string>
 </resources>
