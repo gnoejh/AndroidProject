@@ -2,6 +2,58 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AndroidSample.iml" filepath="$PROJECT_DIR$/.idea/modules/AndroidSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AndroidSample/AndroidSample.AndroidSample.iml" filepath="$PROJECT_DIR$/.idea/modules/AndroidSample/AndroidSample.AndroidSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AndroidSample_ViewBinding/AndroidSample.AndroidSample_ViewBinding.iml" filepath="$PROJECT_DIR$/.idea/modules/AndroidSample_ViewBinding/AndroidSample.AndroidSample_ViewBinding.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AppLinking/AndroidSample.AppLinking.iml" filepath="$PROJECT_DIR$/.idea/modules/AppLinking/AndroidSample.AppLinking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AppLinking_completed/AndroidSample.AppLinking_completed.iml" filepath="$PROJECT_DIR$/.idea/modules/AppLinking_completed/AndroidSample.AppLinking_completed.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ApplyChanges/AndroidSample.ApplyChanges.iml" filepath="$PROJECT_DIR$/.idea/modules/ApplyChanges/AndroidSample.ApplyChanges.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AudioApp/AndroidSample.AudioApp.iml" filepath="$PROJECT_DIR$/.idea/modules/AudioApp/AndroidSample.AudioApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BiometricDemo/AndroidSample.BiometricDemo.iml" filepath="$PROJECT_DIR$/.idea/modules/BiometricDemo/AndroidSample.BiometricDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CardDemo/AndroidSample.CardDemo.iml" filepath="$PROJECT_DIR$/.idea/modules/CardDemo/AndroidSample.CardDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CardDemo_AppBar/AndroidSample.CardDemo_AppBar.iml" filepath="$PROJECT_DIR$/.idea/modules/CardDemo_AppBar/AndroidSample.CardDemo_AppBar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CardDemo_SampleData/AndroidSample.CardDemo_SampleData.iml" filepath="$PROJECT_DIR$/.idea/modules/CardDemo_SampleData/AndroidSample.CardDemo_SampleData.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CommonGestures/AndroidSample.CommonGestures.iml" filepath="$PROJECT_DIR$/.idea/modules/CommonGestures/AndroidSample.CommonGestures.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CoroutineDemo/AndroidSample.CoroutineDemo.iml" filepath="$PROJECT_DIR$/.idea/modules/CoroutineDemo/AndroidSample.CoroutineDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CustomGestures/AndroidSample.CustomGestures.iml" filepath="$PROJECT_DIR$/.idea/modules/CustomGestures/AndroidSample.CustomGestures.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DirectReply/AndroidSample.DirectReply.iml" filepath="$PROJECT_DIR$/.idea/modules/DirectReply/AndroidSample.DirectReply.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DynamicFeature/AndroidSample.DynamicFeature.iml" filepath="$PROJECT_DIR$/.idea/modules/DynamicFeature/AndroidSample.DynamicFeature.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/EventExample/AndroidSample.EventExample.iml" filepath="$PROJECT_DIR$/.idea/modules/EventExample/AndroidSample.EventExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ExplicitIntent/AndroidSample.ExplicitIntent.iml" filepath="$PROJECT_DIR$/.idea/modules/ExplicitIntent/AndroidSample.ExplicitIntent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FabExample/AndroidSample.FabExample.iml" filepath="$PROJECT_DIR$/.idea/modules/FabExample/AndroidSample.FabExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FragmentExample/AndroidSample.FragmentExample.iml" filepath="$PROJECT_DIR$/.idea/modules/FragmentExample/AndroidSample.FragmentExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/HTMLPrint/AndroidSample.HTMLPrint.iml" filepath="$PROJECT_DIR$/.idea/modules/HTMLPrint/AndroidSample.HTMLPrint.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ImplicitIntent/AndroidSample.ImplicitIntent.iml" filepath="$PROJECT_DIR$/.idea/modules/ImplicitIntent/AndroidSample.ImplicitIntent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/KeyCycleDemo/AndroidSample.KeyCycleDemo.iml" filepath="$PROJECT_DIR$/.idea/modules/KeyCycleDemo/AndroidSample.KeyCycleDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/KotlinLayout/AndroidSample.KotlinLayout.iml" filepath="$PROJECT_DIR$/.idea/modules/KotlinLayout/AndroidSample.KotlinLayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/LayoutSample/AndroidSample.LayoutSample.iml" filepath="$PROJECT_DIR$/.idea/modules/LayoutSample/AndroidSample.LayoutSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/LifecycleDemo/AndroidSample.LifecycleDemo.iml" filepath="$PROJECT_DIR$/.idea/modules/LifecycleDemo/AndroidSample.LifecycleDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/LocalBound/AndroidSample.LocalBound.iml" filepath="$PROJECT_DIR$/.idea/modules/LocalBound/AndroidSample.LocalBound.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ManualXML/AndroidSample.ManualXML.iml" filepath="$PROJECT_DIR$/.idea/modules/ManualXML/AndroidSample.ManualXML.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MotionEvent/AndroidSample.MotionEvent.iml" filepath="$PROJECT_DIR$/.idea/modules/MotionEvent/AndroidSample.MotionEvent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MotionLayoutDemo/AndroidSample.MotionLayoutDemo.iml" filepath="$PROJECT_DIR$/.idea/modules/MotionLayoutDemo/AndroidSample.MotionLayoutDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MyWebView/AndroidSample.MyWebView.iml" filepath="$PROJECT_DIR$/.idea/modules/MyWebView/AndroidSample.MyWebView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/NavigationDemo/AndroidSample.NavigationDemo.iml" filepath="$PROJECT_DIR$/.idea/modules/NavigationDemo/AndroidSample.NavigationDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/NotifyDemo/AndroidSample.NotifyDemo.iml" filepath="$PROJECT_DIR$/.idea/modules/NotifyDemo/AndroidSample.NotifyDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PermissionDemo/AndroidSample.PermissionDemo.iml" filepath="$PROJECT_DIR$/.idea/modules/PermissionDemo/AndroidSample.PermissionDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PinchExample/AndroidSample.PinchExample.iml" filepath="$PROJECT_DIR$/.idea/modules/PinchExample/AndroidSample.PinchExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PrimaryDetailFlow/AndroidSample.PrimaryDetailFlow.iml" filepath="$PROJECT_DIR$/.idea/modules/PrimaryDetailFlow/AndroidSample.PrimaryDetailFlow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RemoteBound/AndroidSample.RemoteBound.iml" filepath="$PROJECT_DIR$/.idea/modules/RemoteBound/AndroidSample.RemoteBound.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RoomDemo/AndroidSample.RoomDemo.iml" filepath="$PROJECT_DIR$/.idea/modules/RoomDemo/AndroidSample.RoomDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SendBroadcast/AndroidSample.SendBroadcast.iml" filepath="$PROJECT_DIR$/.idea/modules/SendBroadcast/AndroidSample.SendBroadcast.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ServiceExample/AndroidSample.ServiceExample.iml" filepath="$PROJECT_DIR$/.idea/modules/ServiceExample/AndroidSample.ServiceExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/StateChange/AndroidSample.StateChange.iml" filepath="$PROJECT_DIR$/.idea/modules/StateChange/AndroidSample.StateChange.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/StateChange_Restore/AndroidSample.StateChange_Restore.iml" filepath="$PROJECT_DIR$/.idea/modules/StateChange_Restore/AndroidSample.StateChange_Restore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/StorageDemo/AndroidSample.StorageDemo.iml" filepath="$PROJECT_DIR$/.idea/modules/StorageDemo/AndroidSample.StorageDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TabLayoutDemo/AndroidSample.TabLayoutDemo.iml" filepath="$PROJECT_DIR$/.idea/modules/TabLayoutDemo/AndroidSample.TabLayoutDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/VideoPlayer/AndroidSample.VideoPlayer.iml" filepath="$PROJECT_DIR$/.idea/modules/VideoPlayer/AndroidSample.VideoPlayer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/VideoPlayer_PiP/AndroidSample.VideoPlayer_PiP.iml" filepath="$PROJECT_DIR$/.idea/modules/VideoPlayer_PiP/AndroidSample.VideoPlayer_PiP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ViewModelDemo/AndroidSample.ViewModelDemo.iml" filepath="$PROJECT_DIR$/.idea/modules/ViewModelDemo/AndroidSample.ViewModelDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ViewModelDemo_DataBinding/AndroidSample.ViewModelDemo_DataBinding.iml" filepath="$PROJECT_DIR$/.idea/modules/ViewModelDemo_DataBinding/AndroidSample.ViewModelDemo_DataBinding.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ViewModelDemo_LiveData/AndroidSample.ViewModelDemo_LiveData.iml" filepath="$PROJECT_DIR$/.idea/modules/ViewModelDemo_LiveData/AndroidSample.ViewModelDemo_LiveData.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ViewModelDemo_SavedState/AndroidSample.ViewModelDemo_SavedState.iml" filepath="$PROJECT_DIR$/.idea/modules/ViewModelDemo_SavedState/AndroidSample.ViewModelDemo_SavedState.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/WebPrint/AndroidSample.WebPrint.iml" filepath="$PROJECT_DIR$/.idea/modules/WebPrint/AndroidSample.WebPrint.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/main/AndroidSample.main.iml" filepath="$PROJECT_DIR$/.idea/modules/main/AndroidSample.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Mystarter.iml" filepath="$PROJECT_DIR$/.idea/modules/Mystarter.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Mystarter.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Mystarter.app.iml" />
     </modules>
