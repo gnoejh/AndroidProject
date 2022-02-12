@@ -14,13 +14,13 @@ class MainActivity : AppCompatActivity() {
 
     }
     //entry point
-    fun main(){
-        var string: String = "Hello, world!!!"
+    private fun main(){
+        val string: String = "Hello, world!!!"
         println("$string")
     }
 
     //entry point with parameters
-    fun main(args: Array<String>){
+    private fun main(args: Array<String>){
         for (i in 0..2){
             println(args[i])
         }
